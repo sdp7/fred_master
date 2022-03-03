@@ -1,0 +1,6 @@
+[submodule "wheelbase"]
+	path = wheelbase
+	url = https://github.com/sdp7/wheelbase
+[submodule "vision"]
+	path = vision
+	url = https://github.com/sdp7/vision
