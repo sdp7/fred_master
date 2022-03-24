@@ -4,3 +4,6 @@
 [submodule "vision"]
 	path = vision
 	url = https://github.com/sdp7/vision
+[submodule "turret"]
+	path = turret
+	url = https://github.com/sdp7/turret
