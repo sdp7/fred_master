@@ -1,0 +1,8 @@
+numpy
+nbconvert==6.0.7
+entrypoints>=0.2.2
+psutil
+defusedxml
+imutils
+protobuf==3.16.0
+onnx

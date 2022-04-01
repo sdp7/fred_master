@@ -1,1 +1,0 @@
-rosrun turret scan.py
