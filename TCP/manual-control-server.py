@@ -7,8 +7,8 @@ Example usage of the TCPServer class from the TCPCOM library
 from tcpcom import TCPServer
 
 # connection configuration settings
-tcp_ip = "192.168.1.103"
-tcp_port = 5008
+tcp_ip = "192.168.105.17"
+tcp_port = 6005
 tcp_reply = "Manual control message"
 
 wheelbase_x = 0
