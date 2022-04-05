@@ -1,0 +1,7 @@
+<launch>
+  <node
+    pkg="wb"
+    type="master-contol.py"
+    name="master-control">
+  </node>
+</launch>

@@ -9,9 +9,9 @@
     type="scanner2.py" 
     name="scan_arm_real">
   </node>
-  <node 
-    pkg="turret" 
-    type="armMover.py" 
-    name="move_arm">
+  <node
+    pkg="wb"
+    type="master-contol.py"
+    name="master-control">
   </node>
 </launch>

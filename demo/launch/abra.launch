@@ -1,0 +1,12 @@
+<launch>
+  <node
+    pkg="turret"
+    type="0publisher.py"
+    name="pumpAndCurrMode">
+  </node>
+  <node
+    pkg="turret"
+    type="sonarRos.py"
+    name="sonar">
+  </node>
+</launch>
