@@ -9,9 +9,4 @@
     type="scanner2.py" 
     name="scan_arm_real">
   </node>
-  <node
-    pkg="wb"
-    type="master-contol.py"
-    name="master-control">
-  </node>
 </launch>
