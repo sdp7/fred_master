@@ -9,9 +9,4 @@
     type="scanner2.py" 
     name="scan_arm_real">
   </node>
-  <node 
-    pkg="turret" 
-    type="armMover.py" 
-    name="move_arm">
-  </node>
 </launch>
