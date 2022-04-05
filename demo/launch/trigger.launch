@@ -1,0 +1,12 @@
+<launch>
+  <node 
+    pkg="demo" 
+    type="triggerclient.py" 
+    name="mainSwitch">
+  </node>
+  <node 
+    pkg="demo" 
+    type="switchAmplifier.py" 
+    name="switchAmplifier">
+  </node>
+</launch>
