@@ -24,7 +24,7 @@ class scanAndLook:
         self.statepub = rospy.Publisher('scan_state', Bool, queue_size =10)
         
         self.scan_sub = message_filters.Subscriber("scan_state", Bool)
-        self.fire_sub = message_filters.Subscriber("iFire", Bool)
+        self.fire_sub = message_filters.Subscriber("isFire", Bool)
         
         self.sub_list = [self.scan_sub, self.fire_sub]
 

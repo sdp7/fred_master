@@ -1,0 +1,18 @@
+<launch>
+  <node 
+    pkg="turret" 
+    type="scanner.py" 
+    name="scan_arm_real">
+  </node>
+  <node 
+    pkg="demo" 
+    type="scanfire.py" 
+    name="scan_look">
+  </node>
+  <node 
+    pkg="wb" 
+    type="navArena.py" 
+    name="nav_stack_goals"
+    respawn="true">
+  </node>
+</launch>

@@ -1,1 +1,1 @@
-roslaunch demo scanner.launch
+roslaunch demo scene1.launch
