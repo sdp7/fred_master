@@ -1,0 +1,7 @@
+<launch>
+  <node 
+    pkg="wb" 
+    type="stopWhenFireC.py" 
+    name="swist_to_arm">
+  </node>
+</launch>
