@@ -16,8 +16,7 @@ class scanAndLook:
     def __init__(self):
         rospy.init_node('scan_look',anonymous=True)
 
-        self.stop = rospy.Rate(1)
-        self.intervals = 20
+        self.stop = rospy.Rate(20)
         global sl
         sl = .05
         
