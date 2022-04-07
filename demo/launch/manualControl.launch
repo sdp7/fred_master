@@ -1,0 +1,20 @@
+<launch>
+  <node
+    pkg="wb"
+    type="manual-control-server.py"
+    name="manualServer">
+  </node>
+
+  <node
+    pkg="wb"
+    type="manualControl.py"
+    name="wheelbaseReceiver">
+  </node>
+
+  <node
+    pkg="turret"
+    type="manual_aim.py"
+    name="turretReceiver">
+  </node>
+
+</launch>
