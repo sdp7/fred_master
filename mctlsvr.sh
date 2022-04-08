@@ -1,1 +1,1 @@
-python3 ~/fred_master/src/TCP/manual-control-server.py
+python3 ~/fred_master/src/wheelbase/wb/src/manual-control-server.py
